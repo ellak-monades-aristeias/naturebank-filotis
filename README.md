@@ -1,9 +1,9 @@
-naturenank-filotis
+naturebank-filotis
 ====================
 
 Version 1.0 (2015-10-01)
 
-naturenank-filotis is a Database for the Natural Environment of Greece,
+naturebank-filotis is a Database for the Natural Environment of Greece,
 powered by [NatureBank](https://github.com/ellak-monades-aristeias/naturebank),
 
 
@@ -48,10 +48,10 @@ Copy file /naturebank_project/settings/local-example.py to
 
 License
 -------
-    naturenank-filotis is a database for the Natural Environment of Greece.
+    naturebank-filotis is a database for the Natural Environment of Greece.
     Copyright (C) 2005-2015 National Technical University of Athens
 
-    naturenank-filotis is free software: you can redistribute it and/or modify
+    naturebank-filotis is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
     published by the Free Software Foundation, either version 3 of the
     License, or (at your option) any later version.
@@ -65,18 +65,18 @@ License
     License along with this program. If not, see
     <http://www.gnu.org/licenses/>.
 
-naturenank-filotis is powered by NatureBank, which is
+naturebank-filotis is powered by NatureBank, which is
 Copyright (C) 2005-2015 National Technical University of Athens.
 
 All additional 3rd party software provided with this release and/or used
-by naturenank-filotis are AGPLv3 compatible as their licenses ensure the
+by naturebank-filotis are AGPLv3 compatible as their licenses ensure the
 freedoms to run, study, share (copy), and modify the software. Additionally,
 some of them are copylefted.
 
 
 Acknowledgements
 ----------------
-naturenank-filotis is based on Filotis, a database for the natural environment
+naturebank-filotis is based on Filotis, a database for the natural environment
 of Greece, developed between 2005-2015 by the National Technical University
 of Athens. Main authors of Filotis are Anthony Christophides and Stefanos
 Kozanis. Theodore Kargas was the main author of the initial version of Filotis.
