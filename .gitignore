@@ -1,0 +1,4 @@
+*.pyc
+*.egg-info
+naturebank_project/settings/local.py
+site_media/

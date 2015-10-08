@@ -1,0 +1,16 @@
+{% extends "base-nomap.html" %}
+{% load i18n %}
+
+{% block header %}{% endblock %}
+
+{% block title %}
+FILOTIS - {{ flatpage.title }}
+{% endblock %}
+
+{% block content_main %}
+<h2 class="pagetitle">{{ flatpage.title }}</h2>
+
+
+  {{ flatpage.content|safe }}
+
+{% endblock %}

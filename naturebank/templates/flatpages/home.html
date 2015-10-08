@@ -1,0 +1,25 @@
+{% extends "base-nomap.html" %}
+{% load i18n %}
+
+{% block header %}
+{% endblock %}
+
+{% block js-globals %}
+    <script type="text/javascript">var map_mode=0;</script>
+{% endblock %}
+
+{% block extracss %}
+<meta name="google-site-verification" content="-73mr78LGM_pfq9JRAcOKyzo9TzwpBsTEAnSZrLwLRY" />
+{% endblock %}
+
+{% block title %}
+FILOTIS: Βάση δεδομένων για την ελληνική  φύση / Database for
+the natural environment of Greece
+{% endblock %}
+
+{% block content_main %}
+    <h2 class="pagetitle">{{ flatpage.title }}</h2>
+
+    {{ flatpage.content|safe }}
+
+{% endblock %}

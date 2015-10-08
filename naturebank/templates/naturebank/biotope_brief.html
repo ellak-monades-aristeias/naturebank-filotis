@@ -1,0 +1,20 @@
+{% load i18n %}
+<p style="color: #000000; font-size:9pt; font-weight:bold; margin: 2px;">{{ biotope.site_name_gr }}</h3>
+<p style="color: #000000; font-size:9pt; margin: 2px;">
+    {% trans 'Κατηγορία' %}: {{ biotope.category }}<br />
+    {% trans 'Κωδικός τόπου' %}: {{ biotope.site_code }}<br />
+    {% trans "Κύριος Χαρακτήρας" %}
+    {% if biotope.main_char_biotopos %}
+        {% trans "Βιότοπος, " %}
+    {% endif %}
+    {% if biotope.main_char_natural %}
+        {% trans "Φυσικό τοπίο, " %}
+    {% endif %}
+    {% if biotope.main_char_built %}
+        {% trans "Δομημένο τοπίο" %}
+    {% endif %}<br />
+    {% trans 'Περιοχή'%}: {{ biotope.geo_code.name }}<br />
+    {% if biotope.reg_mun %}{% trans 'Δήμος-κοιν/τα'%}: {{ biotope.reg_mun }}<br />{% endif %}
+    {% url 'biotope_detail' biotope.site_code as biotope_url %}
+    <a href=" {{biotope_url}} ">{% trans 'Περισσότερες πληροφορίες' %}</a>
+</p>

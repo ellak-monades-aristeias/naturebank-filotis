@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block mapjs %}
+{#        <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"> #}
+        <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+        <script src="{{STATIC_URL}}ol/OpenLayers.js">
+        </script>
+
+        <script type="text/javascript"
+                src="http://openstreetmap.org/openlayers/OpenStreetMap.js">
+        </script>
+        <script type="text/javascript" src="{{STATIC_URL }}naturebank-map.js"></script>
+{% endblock %}
