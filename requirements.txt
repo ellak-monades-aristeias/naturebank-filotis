@@ -1,5 +1,0 @@
-django>=1.7,<1.8
-django-pagination>=1,<2
-django-sorting>=0.1,<1
-django-filter>=0.5,<1
--e hg+https://bitbucket.org/carljm/django-admintabs/#egg=admintabs

@@ -1,2 +1,23 @@
-{% extends "base-sample.html" %}
+﻿{% extends "base-default.html" %}
 {% load i18n %}
+
+
+        {% block logo %}
+            <img src="{{ STATIC_URL }}images/filotis_logo.png" style="border:0;padding:10px;" id="topbanner">
+        {% endblock %}
+
+
+        {% block footer %}
+            <li>
+              <a href="http://www.itia.ntua.gr/">
+                <img src="{{ STATIC_URL }}images/itia-small-logo.png"/>
+                <span style="color:#007F7F; float: right;">
+                    &nbsp;ITIA
+                </span>
+              </a>
+            </li>
+            <li><a href="http://www.hydro.ntua.gr/">ΤΥΠΥΘΕ</a></li>
+            <li><a href="http://www.ntua.gr/">ΕΜΠ</a></li>
+            <li>Επικοινωνία: <a href="mailto:filotis@itia.ntua.gr">filotis@itia.ntua.gr</a></li>
+            <li><a href="/poweredby/">Powered by NatureBank</a></li>
+        {% endblock %}
